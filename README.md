@@ -11,6 +11,8 @@ LAMBDA VALUES FROM 0.5 TO 5.0
 ALPHA 0.5
 t=1s
 
+<img src="Figures/semiLagrConstSpeed.png" height = 400 >
+
 
 (B) Add a new equation in the system by making propagation velocity non-constant and time-varying obeying the below:
 
@@ -19,3 +21,5 @@ SPECIFY THE VELOCITY EQUATION
 DELTA-T = 0.1
 SAME INITIAL CONDITIONS
 VARYING GRIDPOINTS
+
+<img src="Figures/ModifiedSemiLagrVaryGrid.png" height = 400 >
