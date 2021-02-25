@@ -10,7 +10,7 @@ u=U(2,:)./U(1,:);                                   %Velocity at each x location
 p=(gamma-1).*(U(3,:)-0.5.*(U(2,:).^2)./U(1,:));     %pressure rearranged based on conservative variables
 c=sqrt(gamma.*p./rho);                              %local speed of sound
 H=U(3,:)./U(1,:)+p./rho;                            %Calculate H
-%% Calculate the local eigenvalues based on handout
+%% Calculate the local eigenvalues
 lambda_1=u-c;
 lambda_2=u;
 lambda_3=u+c;
