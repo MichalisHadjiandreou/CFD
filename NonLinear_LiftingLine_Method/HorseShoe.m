@@ -1,0 +1,7 @@
+function w=hshoe(locY,endpoints,gamma)
+% FUNCTION EVALUATING THE DOWNWASH VELOCITY AT SPECIFIC CARTESIAN POINTS (locY) BY n
+% VORTICES. EACH VORTEX HAS A STRENGTH gamma AND THE ENDPOINTS OF EACH HORSESHOE VORTEX
+% IS DESCRIBED IN endpoints 2D ARRAY.    
+    w=gamma.*(1./(Y-Y1(:,1))+1./(Y1(:,2)-Y))/(4*pi);
+    
+end
