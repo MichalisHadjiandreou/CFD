@@ -23,3 +23,18 @@ SAME INITIAL CONDITIONS
 VARYING GRIDPOINTS
 
 <img src="Figures/ModifiedSemiLagrVaryGrid.png" height = 400 >
+
+(C) Cubic spline interpolation
+
+<img src="Figures/TestCubicSpline.png" height = 400 >
+
+(D) Non-Linear Lifting Line Method 3D Wing
+
+Tested wing: PA-28-180 at:
+Altitude: 1000 ![unitm](https://latex.codecogs.com/gif.latex?m)
+Velocity: 45 ms-1
+AoA: 5 degrees
+
+
+<img src="Figures/100panels_5deg.png" height = 400 >
+
